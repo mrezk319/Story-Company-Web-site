@@ -1,0 +1,368 @@
+         .navbar{
+            z-index:5;
+            position:fixed;
+            width:100%
+        } 
+        .navbar-light .navbar-brand span:first-child {
+            font-size: 25px;
+            padding: 0px 8px;
+            border-radius: 40%;
+            border: 1px solid #fcfcfc;
+            color: #fcfcfc;
+        }
+        .navbar-light .navbar-brand span:last-child {
+            font-size: 25px;
+            font-weight: 100;
+            color: #fff;
+        }
+        .navbar-nav li {
+            padding-left: 15px;
+        }
+        .navbar-light .navbar-nav .active > .nav-link{
+            color:#fff;
+        }
+        .bg-light {
+            background-color: #78797c !important;
+            opacity: .7;
+        }
+        .navbar-nav li:last-child {
+            margin-top: 8px;
+        }
+        .navbar-nav li a {
+            padding-left:8px;
+            text-decoration: none;
+            color: #fff;
+        }
+        @media (max-width:576px) {
+            .navbar-nav li:last-child {
+                margin-left: -10px;
+            }
+        }
+        .carousel-indicators li{
+            height:10px;
+        }
+        .slider img{
+            height:630px;
+        }
+        @media(max-width:992px) {
+            .slider .carousel-caption {
+                margin-top: -15px;
+                width: 70%;
+                font-size: 15px;
+            }
+        }
+        .slider .carousel-caption {
+            position:absolute;
+            top:200px;
+            right:500px;
+            text-align:left;
+            line-height:.9;
+        }
+        .slider .carousel-caption p:first-child{
+            letter-spacing:5px;
+        }
+        .slider .carousel-caption p:nth-of-type(2){
+            font-weight:bold;
+            font-size:50px;
+        }
+        .slider .carousel-caption p:last-child {
+            padding: 7px 12px;
+            width: 110px;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid lightseagreen;
+                    
+        }
+        .slider .carousel-caption p:last-child:hover{
+            cursor:pointer
+        } 
+        .n {
+            background-color: lightseagreen;
+        }
+        .cardss{
+            border:0;
+            margin:150px 0px 100px 0px;
+            text-align:center
+        }
+        .cardss .card{
+            border:0
+        }
+        @media (max-width:576px){
+            .cardss{
+                margin-left:110px;
+            }
+        }
+        .latest {
+            background-color: #f7f7f7;
+            text-align:center;
+        }
+        .latest h1 {
+            padding-top: 50px;
+        }
+        .o {
+            margin-left: 490px;
+            border-top: 3px solid #fcd722;
+            width: 100px;
+        }
+        .latest .cards{
+            margin-top:70px;
+            border:1px solid gray;
+            border-radius:3px;
+        }
+        .latest .cards h5 {
+            font-weight: 400;
+           
+        }
+        .latest .f {
+            margin-left:100px;
+            margin-top:-5px;
+            border-top: 3px solid #fcd722;
+            width:50px;
+        }
+        .latest .cards p{
+            opacity:.7;
+            padding-top:10px;
+            font-size:12px;
+        }
+        .latest button {
+            margin-top:30px;
+            border-radius:3px;
+            background-color: black;
+            color: #fcd722;
+            margin-bottom:80px;
+        }
+        @media(max-width:576px) {
+            .latest .o {
+              position:relative;
+              left:-50px;
+            }
+            .latest .cards {
+                margin-bottom: -25px;
+            }
+            .latest button {
+                margin-top: 55px;
+            }
+        }
+        @media (max-width:768px) {
+            .latest .o {
+                position:relative;
+                left:-190px;
+            }
+            .latest .cards {
+                margin-left: 115px;
+                margin-bottom: -25px;
+            }
+        }
+        @media(max-width:992px) {
+           .latest .o {
+               position:relative;
+                right:100px;
+            }
+            .latest .cards {
+                margin-bottom: -25px;
+            }
+            .latest button {
+                margin-top: 55px;
+                margin-left:-65px;
+            }
+        }
+        @media(max-width:1200px){
+                .latest .o {
+        margin-left: 400px;
+        }
+        }
+        section{
+            margin-top:30px;
+            height:500px;
+            text-align:center;
+        }
+        section .o{
+            width:300px;
+            position:relative;
+            left:25px;
+        }
+        section h1, section p{
+            padding-bottom:10px;
+            opacity:.7;
+            margin-left:-22px;
+        }
+        section p{
+            padding-bottom:50px;
+        }
+        section .container{
+            padding:0;
+        }
+        section .card{
+            background-color:black;
+            border-radius:5px;
+            color:white;
+            border:0;
+            margin-bottom:50px;
+        }
+
+        section div img{
+            margin-top:50px;
+            background-color:#fcd722;
+            border-radius:50%;
+        }
+@media(max-width:1200px) {
+    section .o {
+        margin-left: 300px;
+    }
+}
+@media(max-width:992px) {
+    section .o {
+        position: relative;
+        left: -90px;
+    }
+    section .card{
+        margin-bottom:15px;
+                border:2px solid #fff
+    }
+        section{
+        margin-bottom:400px;
+    }
+}
+@media(max-width:576px) {
+    section .o {
+        margin-left:250px;
+    }
+           section .card{
+        margin-left:100px;
+        border:2px solid #fff
+    }
+     section{
+        padding-bottom:1190px;
+    }
+}
+@media (max-width:768px) {
+    section .o {
+        position: relative;
+        left: -160px;
+    }
+    section .card{
+        border:3px solid #fff;
+    }
+    section{
+        margin-bottom:400px;
+    }
+}
+.team{
+    text-align:center;
+    margin-bottom:50px;
+}
+.team h1{
+    font-weight:200;
+    letter-spacing:5px;
+    margin:25px 0px 50px 0px;
+}
+.team img{
+    border:3px solid gray
+}
+@media(max-width:992px) {
+    .team img{
+        margin-bottom:30px;
+    }
+}
+.bf {
+    margin-top:100px;
+    height: 400px;
+    background-color:lightblue;
+    text-align:center;
+}
+.bf h5{
+    color:white;
+    padding-bottom:25px;
+    padding-top:70px;
+}
+.bf span{
+    opacity:.7;
+}
+.bf p{
+    display:inline;
+    color:white;
+}
+body .jj{
+    background-color:#f7f7f7;
+}
+.jj .carousel-cap{
+    padding-bottom:80px;
+    margin-top:150px;
+    margin-left:10px;
+    text-align:center;
+}
+.jj .carousel-cap img{
+    border-radius:50%;
+    width:150px;
+    margin-bottom:3px;
+}
+.jj .carousel-cap h5{
+    margin-bottom:7px;
+}
+.jj .carousel-cap span:nth-of-type(1){
+    opacity:.7;
+}
+.jj .carousel-cap span:nth-of-type(2){
+    color:#fae26a;
+}
+.jj .carousel-cap p{
+    margin-top:15px;
+    font-family:Forte
+}
+.jj .carousel-control-next-icon,.jj .carousel-control-prev-icon{
+    background-color: black;
+    padding:10px;
+}
+footer{
+    background-color:#737277;
+    color:white;
+}
+footer hr{color:white}
+footer h3{
+    margin-bottom:15px;
+}
+footer .hoho{
+    padding:50px 30px;
+}
+footer p:hover{
+    cursor:pointer;
+}
+.af{
+     padding:0px 30px;
+     background-color:#1f1f1f;
+     color:white;
+ }
+.af p:first-child{
+         opacity:.6;
+         position:relative;
+         top:20px;
+}
+.af p:last-child{
+    position:relative;
+    bottom:20px;
+    opacity:.6;
+}
+.af span:hover{
+    cursor:pointer;
+}
+@media(max-width:576px){
+    .af p:last-child{
+        top:1px;
+    }
+}
+.up{
+    z-index:20;
+    padding:10px 15px;
+    background-color:red;
+    color:white;
+    border-radius:50%;
+    position:fixed;
+    bottom:5px;
+    right:25px;
+    font-size:40px;
+    opacity:.7;
+    display:none;
+}
+.up:hover{
+    cursor:pointer;
+}
